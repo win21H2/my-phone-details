@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hardwarePage"
+    tools:context=".aboutPage"
     android:background="@color/main_background">
 
     <ImageView
@@ -20,16 +20,32 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/HARDWARE"
-        android:textColor="@color/main_font"
-        android:textSize="20sp"
+        android:text="@string/ABOUT"
         android:textAllCaps="true"
+        android:textColor="@color/main_font"
 
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/ABOUT_MAIN_TEXT"
+        android:textAllCaps="false"
+        android:textColor="@color/main_font"
+        android:textSize="17sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/centerimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/home"

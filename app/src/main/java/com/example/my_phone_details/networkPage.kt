@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class softwarePage : AppCompatActivity() {
+class networkPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_software_page)
+        setContentView(R.layout.activity_network_page)
         window.statusBarColor = this.resources.getColor(R.color.main_background)
         window.navigationBarColor = this.resources.getColor(R.color.main_background)
 

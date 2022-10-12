@@ -8,7 +8,7 @@
     android:background="@color/main_background">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/centerimage"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,22 +18,22 @@
         app:srcCompat="@mipmap/ic_launcher_round"
         android:contentDescription="@string/app_name" />
 
+    <!--TOP SECTOR-->
     <Button
         android:id="@+id/hardware"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:text="@string/HARDWARE"
-
         android:textColor="@color/main_font"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+
+        app:layout_constraintBottom_toTopOf="@+id/centerimage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
-        app:rippleColor="@color/main_font" />
+        app:layout_constraintVertical_bias="0.75" />
 
+    <!--BOTTOM SECTOR-->
     <Button
         android:id="@+id/software"
         android:layout_width="100dp"
@@ -41,10 +41,54 @@
         android:background="@drawable/border_radius"
         android:text="@string/SOFTWARE"
         android:textColor="@color/main_font"
-
-        app:rippleColor="@color/main_font"
         app:layout_constraintBottom_toTopOf="@+id/hardware"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <Button
+        android:id="@+id/network"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:text="@string/NETWORK"
+        android:textColor="@color/main_font"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/centerimage"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/others"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:text="@string/OTHERS"
+        android:textColor="@color/main_font"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/network"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:text="@string/ABOUT"
+        android:textColor="@color/main_font"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/others"
+        app:layout_constraintVertical_bias="0.5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
