@@ -70,6 +70,8 @@ class MainActivity : AppCompatActivity() {
     }
     private fun aboutPage() {
         val intent = Intent(this, aboutPage::class.java); startActivity(intent)
+        val Intent = packageManager.getLaunchIntentForPackage("com.android.chrome")
+        startActivity(Intent)
     }
 }
 /*

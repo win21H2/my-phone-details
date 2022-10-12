@@ -16,25 +16,20 @@ class aboutPage : AppCompatActivity() {
         window.statusBarColor = this.resources.getColor(R.color.main_background)
         window.navigationBarColor = this.resources.getColor(R.color.main_background)
 
-        val home: Button = findViewById(R.id.home)
-        home.setOnClickListener { finish() }
-
         val github: Button = findViewById(R.id.GITHUB)
-        github.setOnClickListener { github() }
-
         val linkedin: Button = findViewById(R.id.LINKEDIN)
-        linkedin.setOnClickListener { linkedin() }
-
         val instagram: Button = findViewById(R.id.YOUTUBE)
-        instagram.setOnClickListener { youtube() }
-
         val twitter: Button = findViewById(R.id.TWITTER)
-        twitter.setOnClickListener { twitter() }
-
         val stackoverflow: Button = findViewById(R.id.STACKOF)
-        stackoverflow.setOnClickListener { stackoverflow() }
-
         val gdotdev: Button = findViewById(R.id.GDOTDEV)
+        val home: Button = findViewById(R.id.home)
+
+        home.setOnClickListener { finish() }
+        github.setOnClickListener { github() }
+        linkedin.setOnClickListener { linkedin() }
+        instagram.setOnClickListener { youtube() }
+        twitter.setOnClickListener { twitter() }
+        stackoverflow.setOnClickListener { stackoverflow() }
         gdotdev.setOnClickListener { gdotdev() }
     }
 

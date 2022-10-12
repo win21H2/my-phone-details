@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Myphonedetails.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/app_widget_name"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:text="@string/app_widget_name"
+        android:textSize="30sp" />
+    <Button
+        style="@style/socials_button"
+        android:id="@+id/openApp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/app_widget_name"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@color/main_background"
+        android:text="@string/openApp"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+</RelativeLayout>
