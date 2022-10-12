@@ -9,8 +9,7 @@
 
     <ImageView
         android:id="@+id/centerimage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        style="@style/center_image"
         android:contentDescription="@string/app_name"
         android:src="@mipmap/ic_launcher_round"
 
@@ -33,12 +32,8 @@
 
     <Button
         android:id="@+id/home"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/border_radius"
+        style="@style/socials_button"
         android:text="@string/HOME"
-        android:textColor="@color/main_font"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

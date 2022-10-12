@@ -9,8 +9,7 @@
 
     <ImageView
         android:id="@+id/centerimage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        style="@style/center_image"
         android:contentDescription="@string/app_name"
         android:src="@mipmap/ic_launcher_round"
 
@@ -26,8 +25,8 @@
         android:text="@string/ABOUT"
         android:textAllCaps="true"
         android:textColor="@color/main_font"
-
         android:textSize="20sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -49,15 +48,72 @@
 
     <Button
         android:id="@+id/home"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/border_radius"
+        style="@style/socials_button"
         android:text="@string/HOME"
-        android:textColor="@color/main_font"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/centerimage" />
+
+    <!--SOCIALS-->
+    <Button
+        android:id="@+id/LINKEDIN"
+        android:text="@string/LINKEDIN"
+        style="@style/socials_button"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
+
+    <Button
+        android:id="@+id/GITHUB"
+        android:text="@string/GITHUB"
+        android:layout_marginEnd="8dp"
+        style="@style/socials_button"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/LINKEDIN"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
+
+    <Button
+        android:id="@+id/YOUTUBE"
+        android:text="@string/YOUTUBE"
+        android:layout_marginStart="8dp"
+        style="@style/socials_button"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LINKEDIN"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
+
+    <Button
+        android:id="@+id/TWITTER"
+        android:text="@string/TWITTER"
+        android:layout_marginTop="8dp"
+        style="@style/socials_button"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LINKEDIN" />
+
+    <Button
+        android:id="@+id/STACKOF"
+        android:text="@string/STACKOF"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        style="@style/socials_button"
+
+        app:layout_constraintEnd_toStartOf="@+id/TWITTER"
+        app:layout_constraintTop_toBottomOf="@+id/GITHUB" />
+
+    <Button
+        android:text="@string/GDOTDEV"
+        android:id="@+id/GDOTDEV"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        style="@style/socials_button"
+
+        app:layout_constraintStart_toEndOf="@+id/TWITTER"
+        app:layout_constraintTop_toBottomOf="@+id/YOUTUBE" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

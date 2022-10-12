@@ -8,5 +8,11 @@
     <string name="HOME">Home</string>
     <string name="ABOUT">About</string>
 
-    <string name="ABOUT_MAIN_TEXT">This series of applications first started off with a Windows CLI app which then turned into this app and a Windows desktop application and was created because I found it irritating that you had to pay for software in order to see for example battery temperature.<br/>\n\nNow what I mean by "pay" is for example if you wanted to change the color of a widget which displayed information in a ugly neon-green color, you would have to pay $5 USD and that is $5 USD too much for me. I have also created this just for the fun of it and I hope you enjoy using this app more than I enjoyed building it!<br/>\n\n324Hz<br/>\n\nwin21H2</string>
+    <string name="ABOUT_MAIN_TEXT">This series of applications first started off with a Windows CLI app which then turned into this app and a Windows desktop application and was created because I found it irritating that you had to pay for software in order to see for example battery temperature.<br/>\n\nNow what I mean by "pay" is for example if you wanted to change the color of a widget which displayed information in a ugly neon-green color, you would have to pay $5 USD and that is $5 USD too much for me. I have also created this just for the fun of it and I hope you enjoy using this app more than I enjoyed building it!<br/>\n\nP.S. My socials are below!<br/>\n\n324Hz<br/>\n\nwin21H2</string>
+    <string name="LINKEDIN">LinkedIn</string>
+    <string name="GITHUB">GitHub</string>
+    <string name="YOUTUBE">Youtube</string>
+    <string name="TWITTER">Twitter</string>
+    <string name="GDOTDEV">g.dev</string>
+    <string name="STACKOF">Stack overflow</string>
 </resources>
