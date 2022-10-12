@@ -9,7 +9,7 @@
     android:previewLayout="@layout/app_information"
     android:resizeMode="horizontal|vertical"
     android:background="@color/main_background"
-    android:targetCellWidth="3"
+    android:targetCellWidth="2"
     android:targetCellHeight="2"
     android:updatePeriodMillis="86400000"
     android:widgetCategory="home_screen" />
