@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/hardware"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -32,18 +32,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/BOARD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textAllCaps="true"
-        android:textColor="@color/main_font"
-        android:textSize="20sp"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/socials_button"
+        android:layout_width="325dp"
+
+        android:layout_height="300dp"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toTopOf="@+id/centerimage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/hardware">
+
+        <TextView
+            android:id="@+id/INFO"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:fontFamily="@font/inconsolata"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@color/main_font"
+            android:textColorHint="@color/main_font"
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+
+            app:layout_constraintBottom_toTopOf="@+id/centerimage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    </ScrollView>
 
     <Button
         android:id="@+id/home"
@@ -54,4 +73,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/centerimage" />
 
+    <Button
+        android:id="@+id/copydata"
+        style="@style/socials_button"
+        android:layout_marginTop="32dp"
+
+        android:text="@string/COPYDATA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
 </androidx.constraintlayout.widget.ConstraintLayout>

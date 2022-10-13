@@ -16,4 +16,6 @@
     <string name="TWITTER">Twitter</string>
     <string name="GDOTDEV">g.dev</string>
     <string name="STACKOF">Stack overflow</string>
+
+   <string name="COPYDATA">Copy data</string>
 </resources>
