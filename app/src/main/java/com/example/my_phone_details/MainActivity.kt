@@ -72,8 +72,4 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, aboutPage::class.java); startActivity(intent)
     }
 }
-/*
- Toast.makeText(this, "hardwarePage", Toast.LENGTH_SHORT).show()
-
-
-* */
+// Toast.makeText(this, "hardwarePage", Toast.LENGTH_SHORT).show()

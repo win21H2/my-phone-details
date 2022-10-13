@@ -1,8 +1,10 @@
 package com.example.my_phone_details
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 
 class hardwarePage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,5 +15,8 @@ class hardwarePage : AppCompatActivity() {
 
         val home: Button = findViewById(R.id.home)
         home.setOnClickListener { finish() }
+
+        val BOARD: TextView = findViewById(R.id.BOARD)
+        BOARD.setText(Build.BOARD).toString()
     }
 }

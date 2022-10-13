@@ -32,7 +32,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75" />
 
-    <!--BOTTOM SECTOR-->
     <Button
         android:id="@+id/software"
         android:layout_width="100dp"
@@ -48,6 +47,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
 
+    <!--BOTTOM SECTOR-->
     <Button
         android:id="@+id/network"
         android:layout_width="100dp"

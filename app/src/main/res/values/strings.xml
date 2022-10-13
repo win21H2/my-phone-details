@@ -16,11 +16,4 @@
     <string name="TWITTER">Twitter</string>
     <string name="GDOTDEV">g.dev</string>
     <string name="STACKOF">Stack overflow</string>
-
-    <string name="openOnGH">Open in GitHub</string>
-    <string name="appInformation_maintext">Created by 324Hz/win21H2 under the GNU General Public License v3.0 | June 07<br />\n\nLast updated: 10/12/22 5:43pmUTC 12:43pmCDT</string>
-    <string name="openApp">Open my-phone-details</string>
-    <string name="add_widget">Add widget</string>
-    <string name="app_widget_description">This is an app widget description</string>
-    <string name="app_widget_name">my-phone-details</string>
 </resources>
